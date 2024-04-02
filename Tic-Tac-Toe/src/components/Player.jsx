@@ -9,7 +9,6 @@ export default function Player ({initialName, symbol, isActive, onChangeName}){
         
         if (isEditing) {
             onChangeName(symbol, name);
-            console.log(name)
         }
         //setIsEditing(editing => !editing)
       }
