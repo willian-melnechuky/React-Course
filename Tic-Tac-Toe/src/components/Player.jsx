@@ -8,7 +8,8 @@ export default function Player ({initialName, symbol, isActive, onChangeName}){
         setIsEditing(EditState);
         
         if (isEditing) {
-            onChangeName(symbol, playerName);
+            onChangeName(symbol, name);
+            console.log(name)
         }
         //setIsEditing(editing => !editing)
       }
